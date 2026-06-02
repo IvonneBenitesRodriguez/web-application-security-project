@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+      <div class="text">
+         Registration Form
+        </div>
+      <form id="registrationForm">
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" id="fullName" required>
+               <div class="underline"></div>
+               <label for="">Full Name</label>
+            </div>
+         </div>
+          <div class="form-row">
+            <div class="input-data">
+               <input type="password" id="password" required>
+               <div class="underline"></div>
+               <label for="">Password</label>
+            </div>
+         </div>
+         <div class="form-row">
+            <div class="input-data">
+               <input type="number" id="age" required>
+               <div class="underline"></div>
+               <label for="">Age</label>
+            </div>
+         </div>
+         <div class="form-row">
+            <div class="input-data">
+               <input type="email"  id="email" required>
+               <div class="underline"></div>
+               <label for="">Email Address</label>
+            </div>
+         </div>
+         <div class="form-row">
+            <div class="form-row submit-btn">
+               <div class="input-data">
+                  <div class="inner"></div>
+                  <input type="submit" value="submit">
+               </div>
+            </div>
+         </div>
+      </form>
+      <div id="successMessage" style="display:none; text-align:center; color:green; padding:20px; font-size:18px;">
+            Registration successful! 🎉
+        </div>
+      </div>  
+      <script src="app.js"></script>
+      <script src="validators.js"></script>
+    </body>
+</html>
