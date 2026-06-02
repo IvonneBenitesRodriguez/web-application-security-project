@@ -3,3 +3,6 @@ A full Stack Web Application featuring a secure user registration system, built 
 
 ## Security Measures OWASP:
 1.Secrets Management (OWASP A02:2021 CRYPTOGRAPHIC FAILURES)
+
+link de backend:
+https://web-application-security-project-production.up.railway.app/up
