@@ -16,7 +16,7 @@ form.addEventListener('submit', function(e) {
     const result = validateForm({ fullName, email, password, age })
 
     if(result.valid) {
-        fetch('http://localhost:3000/users/register', {
+        fetch('https://web-application-security-project-production.up.railway.app/users/register', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
