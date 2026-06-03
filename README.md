@@ -115,5 +115,18 @@ npm test
 
 ## ✅ Live in Production
 
+![Live Production](screenshots/FULLY-WORKING-APP.png)
 
+---
+---
 
+## 👩 Author
+
+**Ivonne Benites Rodriguez**
+- GitHub: [@IvonneBenitesRodriguez](https://github.com/IvonneBenitesRodriguez)
+- LinkedIn: [Ivonne Benites Rodriguez](https://www.linkedin.com/in/ivonnebenites/)
+
+---
+## ⭐ Support
+
+If you find this project useful, please consider giving it a star on GitHub — it helps a lot! 🙏
